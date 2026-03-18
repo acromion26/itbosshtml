@@ -105,7 +105,7 @@ export default function Footer() {
         <div className="border-t border-slate-800 mt-6 pt-6">
           <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-3 mb-4">
             <div className="flex flex-wrap items-center gap-x-5 gap-y-1 text-xs text-slate-500">
-              <span>Самозанятый Елизаров И.А.</span>
+              <span>Самозанятый Елизаров Иван Александрович.</span>
               <span>ИНН: 233408463816</span>
               <a href="mailto:ivanioizarov@gmail.com" className="hover:text-emerald-400 transition-colors cursor-pointer">ivanioizarov@gmail.com</a>
               <a href="tel:+79189534671" className="hover:text-emerald-400 transition-colors cursor-pointer">+7 918 953 46 71</a>
