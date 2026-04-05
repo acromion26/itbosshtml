@@ -163,48 +163,6 @@ export default function MaxBotPage() {
                 </div>
               </div>
             </div>
-
-            <h2 className="text-2xl font-bold text-gray-900 mb-4 mt-8">Способы оплаты</h2>
-            <div className="bg-gradient-to-br from-blue-50 to-indigo-50 rounded-2xl p-6 border border-blue-200 mb-6">
-              <h3 className="text-lg font-bold text-gray-900 mb-4">Оплата по номеру карты</h3>
-              <div className="space-y-2 mb-4">
-                <div className="flex items-center gap-2">
-                  <i className="ri-bank-card-line text-blue-600"></i>
-                  <span className="font-mono text-lg font-semibold text-gray-900">2202 2080 4663 7246</span>
-                </div>
-                <div className="text-sm text-gray-600">
-                  <p><strong>Банк:</strong> Сбербанк</p>
-                  <p><strong>Получатель:</strong> Иван А.</p>
-                </div>
-              </div>
-
-              <div className="bg-white rounded-lg p-4 mb-4">
-                <h4 className="font-semibold text-gray-900 mb-2">Условия оплаты:</h4>
-                <ul className="space-y-1 text-sm text-gray-700">
-                  <li className="flex items-start gap-2">
-                    <i className="ri-checkbox-circle-line text-emerald-600 mt-0.5"></i>
-                    <span>Оплата до 10.000₽ — производится в полном объёме</span>
-                  </li>
-                  <li className="flex items-start gap-2">
-                    <i className="ri-checkbox-circle-line text-emerald-600 mt-0.5"></i>
-                    <span>Если сумма выше 10.000₽ — возможен расчёт по предоплате 50% от стоимости</span>
-                  </li>
-                  <li className="flex items-start gap-2">
-                    <i className="ri-checkbox-circle-line text-emerald-600 mt-0.5"></i>
-                    <span>Также есть возможность оплаты по расчётному счёту — но цена будет учитываться БЕЗ СКИДКИ</span>
-                  </li>
-                </ul>
-              </div>
-
-              <div className="bg-amber-50 rounded-lg p-4 border border-amber-200">
-                <div className="flex items-start gap-2">
-                  <i className="ri-information-line text-amber-600 text-lg mt-0.5"></i>
-                  <p className="text-sm text-gray-700">
-                    <strong>Обратите внимание:</strong> скидки и места ограничены, цена может повыситься!
-                  </p>
-                </div>
-              </div>
-            </div>
           </div>
 
           {/* CTA Buttons */}
