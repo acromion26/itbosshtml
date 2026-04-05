@@ -17,6 +17,7 @@ const TelegramBotClever = lazy(() => import("../pages/service/telegram-bot-cleve
 const TelegramBotAI = lazy(() => import("../pages/service/telegram-bot-ai/page"));
 const TelegramBotVK = lazy(() => import("../pages/service/telegram-bot-vk/page"));
 const MaxBot = lazy(() => import("../pages/service/max-bot/page"));
+const PaymentInfo = lazy(() => import("../pages/service/payment-info/page"));
 const VKCommunityDesign = lazy(() => import("../pages/service/vk-community-design/page"));
 const ProfessionalDesign = lazy(() => import("../pages/service/professional-design/page"));
 const TildaWebsites = lazy(() => import("../pages/service/tilda-websites/page"));
@@ -34,6 +35,10 @@ const routes: RouteObject[] = [
   {
     path: "/service/max-bot",
     element: <Suspense fallback={null}><MaxBot /></Suspense>,
+  },
+  {
+    path: "/service/payment-info",
+    element: <Suspense fallback={null}><PaymentInfo /></Suspense>,
   },
   {
     path: "/service/telegram-bot-ai",
