@@ -27,7 +27,7 @@ const serviceCategories = [
     border: 'border-violet-100',
     title: 'Чат-боты для Макс',
     items: [
-      { label: 'Чат-бот для Макс (clever.app)', slug: 'max-bot-turnkey' },
+      { label: 'Чат-бот для Макс (clever.app)', slug: 'max-bot' },
     ],
   },
   {
